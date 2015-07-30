@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8BD55BE1B6A6B6200E49ED0 /* RCTCircleProgress.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8BD55BD1B6A6B6200E49ED0 /* RCTCircleProgress.h */; };
+		F8BD55C01B6A6B6200E49ED0 /* RCTCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BD55BF1B6A6B6200E49ED0 /* RCTCircleProgress.m */; };
+		F8BD55C61B6A6B6200E49ED0 /* libRCTCircleProgress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BD55BA1B6A6B6200E49ED0 /* libRCTCircleProgress.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8BD55C71B6A6B6200E49ED0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8BD55B21B6A6B6200E49ED0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8BD55B91B6A6B6200E49ED0;
+			remoteInfo = RCTCircleProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8BD55B81B6A6B6200E49ED0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F8BD55BE1B6A6B6200E49ED0 /* RCTCircleProgress.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F8BD55BA1B6A6B6200E49ED0 /* libRCTCircleProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTCircleProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BD55BD1B6A6B6200E49ED0 /* RCTCircleProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTCircleProgress.h; sourceTree = "<group>"; };
+		F8BD55BF1B6A6B6200E49ED0 /* RCTCircleProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTCircleProgress.m; sourceTree = "<group>"; };
+		F8BD55C51B6A6B6200E49ED0 /* RCTCircleProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTCircleProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8BD55CB1B6A6B6200E49ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8BD55B71B6A6B6200E49ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BD55C21B6A6B6200E49ED0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BD55C61B6A6B6200E49ED0 /* libRCTCircleProgress.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8BD55B11B6A6B6200E49ED0 = {
+			isa = PBXGroup;
+			children = (
+				F8BD55BC1B6A6B6200E49ED0 /* RCTCircleProgress */,
+				F8BD55C91B6A6B6200E49ED0 /* RCTCircleProgressTests */,
+				F8BD55BB1B6A6B6200E49ED0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8BD55BB1B6A6B6200E49ED0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD55BA1B6A6B6200E49ED0 /* libRCTCircleProgress.a */,
+				F8BD55C51B6A6B6200E49ED0 /* RCTCircleProgressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8BD55BC1B6A6B6200E49ED0 /* RCTCircleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD55BD1B6A6B6200E49ED0 /* RCTCircleProgress.h */,
+				F8BD55BF1B6A6B6200E49ED0 /* RCTCircleProgress.m */,
+			);
+			path = RCTCircleProgress;
+			sourceTree = "<group>";
+		};
+		F8BD55C91B6A6B6200E49ED0 /* RCTCircleProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD55CA1B6A6B6200E49ED0 /* Supporting Files */,
+			);
+			path = RCTCircleProgressTests;
+			sourceTree = "<group>";
+		};
+		F8BD55CA1B6A6B6200E49ED0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8BD55CB1B6A6B6200E49ED0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8BD55B91B6A6B6200E49ED0 /* RCTCircleProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BD55CE1B6A6B6200E49ED0 /* Build configuration list for PBXNativeTarget "RCTCircleProgress" */;
+			buildPhases = (
+				F8BD55B61B6A6B6200E49ED0 /* Sources */,
+				F8BD55B71B6A6B6200E49ED0 /* Frameworks */,
+				F8BD55B81B6A6B6200E49ED0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTCircleProgress;
+			productName = RCTCircleProgress;
+			productReference = F8BD55BA1B6A6B6200E49ED0 /* libRCTCircleProgress.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F8BD55C41B6A6B6200E49ED0 /* RCTCircleProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8BD55D11B6A6B6200E49ED0 /* Build configuration list for PBXNativeTarget "RCTCircleProgressTests" */;
+			buildPhases = (
+				F8BD55C11B6A6B6200E49ED0 /* Sources */,
+				F8BD55C21B6A6B6200E49ED0 /* Frameworks */,
+				F8BD55C31B6A6B6200E49ED0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8BD55C81B6A6B6200E49ED0 /* PBXTargetDependency */,
+			);
+			name = RCTCircleProgressTests;
+			productName = RCTCircleProgressTests;
+			productReference = F8BD55C51B6A6B6200E49ED0 /* RCTCircleProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8BD55B21B6A6B6200E49ED0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = guodong;
+				TargetAttributes = {
+					F8BD55B91B6A6B6200E49ED0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F8BD55C41B6A6B6200E49ED0 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = F8BD55B51B6A6B6200E49ED0 /* Build configuration list for PBXProject "RCTCircleProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8BD55B11B6A6B6200E49ED0;
+			productRefGroup = F8BD55BB1B6A6B6200E49ED0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8BD55B91B6A6B6200E49ED0 /* RCTCircleProgress */,
+				F8BD55C41B6A6B6200E49ED0 /* RCTCircleProgressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8BD55C31B6A6B6200E49ED0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8BD55B61B6A6B6200E49ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8BD55C01B6A6B6200E49ED0 /* RCTCircleProgress.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8BD55C11B6A6B6200E49ED0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8BD55C81B6A6B6200E49ED0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8BD55B91B6A6B6200E49ED0 /* RCTCircleProgress */;
+			targetProxy = F8BD55C71B6A6B6200E49ED0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8BD55CC1B6A6B6200E49ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8BD55CD1B6A6B6200E49ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8BD55CF1B6A6B6200E49ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F8BD55D01B6A6B6200E49ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F8BD55D21B6A6B6200E49ED0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RCTCircleProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8BD55D31B6A6B6200E49ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RCTCircleProgressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8BD55B51B6A6B6200E49ED0 /* Build configuration list for PBXProject "RCTCircleProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BD55CC1B6A6B6200E49ED0 /* Debug */,
+				F8BD55CD1B6A6B6200E49ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8BD55CE1B6A6B6200E49ED0 /* Build configuration list for PBXNativeTarget "RCTCircleProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BD55CF1B6A6B6200E49ED0 /* Debug */,
+				F8BD55D01B6A6B6200E49ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F8BD55D11B6A6B6200E49ED0 /* Build configuration list for PBXNativeTarget "RCTCircleProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8BD55D21B6A6B6200E49ED0 /* Debug */,
+				F8BD55D31B6A6B6200E49ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8BD55B21B6A6B6200E49ED0 /* Project object */;
+}
