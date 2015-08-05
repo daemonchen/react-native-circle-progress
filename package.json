@@ -1,0 +1,30 @@
+{
+  "name": "react-native-circle-progress",
+  "description": "A custom Circle Progress Indocator for React Native",
+  "version": "0.0.1",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "circle",
+    "progress",
+    "indicator"
+  ],
+  "bugs": {
+    "url": "https://github.com/guodong000/react-native-circle-progress/issues"
+  },
+  "author": {
+    "name": "Guo Dong",
+    "email": "guodong000@gmail.com",
+    "url": "http://guodong.co"
+  },
+  "license": "MIT",
+  "main": "CircleProgress.ios.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guodong000/react-native-circle-progress.git"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.4.0 || 0.5.0-rc1 || 0.6.0-rc || 0.7.0-rc || 0.7.0-rc.2 || 0.8.0-rc || 0.8.0-rc.2 || 0.9.0-rc"
+  }
+}

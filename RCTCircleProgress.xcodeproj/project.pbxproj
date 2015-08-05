@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8BD55BE1B6A6B6200E49ED0 /* RCTCircleProgress.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F8BD55BD1B6A6B6200E49ED0 /* RCTCircleProgress.h */; };
-		F8BD55C01B6A6B6200E49ED0 /* RCTCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BD55BF1B6A6B6200E49ED0 /* RCTCircleProgress.m */; };
 		F8BD55C61B6A6B6200E49ED0 /* libRCTCircleProgress.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BD55BA1B6A6B6200E49ED0 /* libRCTCircleProgress.a */; };
+		F8BD55D61B6A6BE000E49ED0 /* RCTCircleProgressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BD55D51B6A6BE000E49ED0 /* RCTCircleProgressManager.m */; };
+		F8BD55D91B6A7B2D00E49ED0 /* RCTCircleProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F8BD55D81B6A7B2D00E49ED0 /* RCTCircleProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				F8BD55BE1B6A6B6200E49ED0 /* RCTCircleProgress.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,10 +36,11 @@
 
 /* Begin PBXFileReference section */
 		F8BD55BA1B6A6B6200E49ED0 /* libRCTCircleProgress.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTCircleProgress.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8BD55BD1B6A6B6200E49ED0 /* RCTCircleProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTCircleProgress.h; sourceTree = "<group>"; };
-		F8BD55BF1B6A6B6200E49ED0 /* RCTCircleProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTCircleProgress.m; sourceTree = "<group>"; };
 		F8BD55C51B6A6B6200E49ED0 /* RCTCircleProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTCircleProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8BD55CB1B6A6B6200E49ED0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8BD55D41B6A6BE000E49ED0 /* RCTCircleProgressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTCircleProgressManager.h; sourceTree = "<group>"; };
+		F8BD55D51B6A6BE000E49ED0 /* RCTCircleProgressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCircleProgressManager.m; sourceTree = "<group>"; };
+		F8BD55D71B6A7B2D00E49ED0 /* RCTCircleProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTCircleProgress.h; sourceTree = "<group>"; };
+		F8BD55D81B6A7B2D00E49ED0 /* RCTCircleProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTCircleProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,10 @@
 		F8BD55B11B6A6B6200E49ED0 = {
 			isa = PBXGroup;
 			children = (
-				F8BD55BC1B6A6B6200E49ED0 /* RCTCircleProgress */,
-				F8BD55C91B6A6B6200E49ED0 /* RCTCircleProgressTests */,
+				F8BD55D71B6A7B2D00E49ED0 /* RCTCircleProgress.h */,
+				F8BD55D81B6A7B2D00E49ED0 /* RCTCircleProgress.m */,
+				F8BD55D41B6A6BE000E49ED0 /* RCTCircleProgressManager.h */,
+				F8BD55D51B6A6BE000E49ED0 /* RCTCircleProgressManager.m */,
 				F8BD55BB1B6A6B6200E49ED0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,31 +80,6 @@
 				F8BD55C51B6A6B6200E49ED0 /* RCTCircleProgressTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F8BD55BC1B6A6B6200E49ED0 /* RCTCircleProgress */ = {
-			isa = PBXGroup;
-			children = (
-				F8BD55BD1B6A6B6200E49ED0 /* RCTCircleProgress.h */,
-				F8BD55BF1B6A6B6200E49ED0 /* RCTCircleProgress.m */,
-			);
-			path = RCTCircleProgress;
-			sourceTree = "<group>";
-		};
-		F8BD55C91B6A6B6200E49ED0 /* RCTCircleProgressTests */ = {
-			isa = PBXGroup;
-			children = (
-				F8BD55CA1B6A6B6200E49ED0 /* Supporting Files */,
-			);
-			path = RCTCircleProgressTests;
-			sourceTree = "<group>";
-		};
-		F8BD55CA1B6A6B6200E49ED0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8BD55CB1B6A6B6200E49ED0 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8BD55C01B6A6B6200E49ED0 /* RCTCircleProgress.m in Sources */,
+				F8BD55D91B6A7B2D00E49ED0 /* RCTCircleProgress.m in Sources */,
+				F8BD55D61B6A6BE000E49ED0 /* RCTCircleProgressManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +274,11 @@
 		F8BD55CF1B6A6B6200E49ED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../react-native/React/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -305,6 +288,11 @@
 		F8BD55D01B6A6B6200E49ED0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../react-native/React/**",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -362,6 +350,7 @@
 				F8BD55D01B6A6B6200E49ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F8BD55D11B6A6B6200E49ED0 /* Build configuration list for PBXNativeTarget "RCTCircleProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -370,6 +359,7 @@
 				F8BD55D31B6A6B6200E49ED0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
