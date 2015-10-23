@@ -45,6 +45,14 @@
     _backgroundLayer.lineWidth = lineWidth;
 }
 
+- (NSString *)lineCap {
+    return _circlePathLayer.lineCap;
+}
+
+- (void)setLineCap:(NSString *)lineCap {
+    _circlePathLayer.lineCap = lineCap;
+}
+
 - (void)setCircleRadius:(CGFloat)circleRadius {
     _circleRadius = circleRadius;
     [self setNeedsLayout];

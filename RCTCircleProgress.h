@@ -16,6 +16,7 @@
 
 @property (nonatomic) CGFloat progress;
 @property (nonatomic) CGFloat lineWidth;
+@property (nonatomic) NSString *lineCap;
 @property (nonatomic) CGFloat circleRadius;
 @property (nonatomic) UIColor *circleColor;
 @property (nonatomic) UIColor *circleUnderlayColor;

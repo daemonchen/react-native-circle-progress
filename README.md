@@ -9,6 +9,7 @@ Circle Progress Indicator for React Native.
 <CircleProgress
   progress={this.state.progress}
   lineWidth={5}
+  lineCap={CircleProgress.LineCapRound}   // LineCapButt | LineCapRound | LineCapSquare
   circleRadius={20}
   circleColor='#32A6FF'
   circleUnderlayColor='#C2C2C2'
