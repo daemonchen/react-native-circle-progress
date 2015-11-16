@@ -1,7 +1,7 @@
 {
   "name": "react-native-circle-progress",
   "description": "A custom Circle Progress Indocator for React Native",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "keywords": [
     "react-component",
     "react-native",

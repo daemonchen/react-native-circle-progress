@@ -1,13 +1,13 @@
 'use strict';
 
 var React = require('react-native');
-var NativeModules = require('NativeModules');
-var requireNativeComponent = require('requireNativeComponent');
-var StyleSheet = require('StyleSheet');
-var NativeMethodsMixin = require('NativeMethodsMixin');
-var PropTypes = require('ReactPropTypes');
-var ReactNativeViewAttributes = require('ReactNativeViewAttributes');
-var merge = require('merge');
+
+var {
+  NativeModules,
+  requireNativeComponent,
+  StyleSheet,
+  PropTypes,
+} = React;
 
 var CircleProgress = React.createClass({
   propTypes: {
@@ -19,21 +19,15 @@ var CircleProgress = React.createClass({
     backgroundColor: PropTypes.string,
   },
 
-  mixins: [NativeMethodsMixin],
-
-  viewConfig: {
-    uiViewClassName: 'UIView',
-    validAttributes: ReactNativeViewAttributes.UIView,
-  },
-
   render: function() {
-    let props = merge({
+    let defaultProps = {
       progress: 0,
       lineWidth: 3,
       lineCap: NativeModules.CircleProgressManager.LineCapRound,
       circleColor: 'blue',
       circleUnderlayColor: 'transparent',
-    }, this.props);
+    }
+    let props = {...defaultProps, ...this.props};
 
     return (
       <RCTCircleProgress {...props}
