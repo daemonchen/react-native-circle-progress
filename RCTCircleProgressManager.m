@@ -20,7 +20,7 @@ RCT_EXPORT_MODULE()
 @synthesize bridge = _bridge;
 
 - (dispatch_queue_t)methodQueue {
-    return _bridge.uiManager.methodQueue;
+    return dispatch_get_main_queue();
 }
 
 - (UIView *)view {
